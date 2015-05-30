@@ -1,0 +1,10 @@
+{
+  "name" : "HN Open New Tab",
+  "version" : "0.0.1",
+  "manifest_version" : 2,
+  "description" : "Open Hacker News links in new tab",
+  "content_scripts" : [{
+    "matches" : ["https://news.ycombinator.com/*"],
+    "js" : ["hnnewtab.js"]
+  }]
+}
